@@ -11,11 +11,21 @@
 
     <link rel="icon" href="images/favicon.png" />
     <meta property="og:image" content="images/dist/preview.jpg" />
+    <link rel="stylesheet" href="css/app.min.css" />
+    <link rel="stylesheet" href="/styles/sass/burger.sass" />
+
+    <!-- swiperJS cdn start -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     />
-    <link rel="stylesheet" href="css/app.min.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- swiperJS cdn end -->
   </head>
 
   <body>
@@ -36,10 +46,14 @@
           <span class="header__nav--title">Menu</span>
           <ul class="header__menu">
             <li class="header__menu-item">
-              <a href="/index.html" class="header__menu-link active">Forex Brokers</a>
+              <a href="/index.html" class="header__menu-link active"
+                >Forex Brokers</a
+              >
             </li>
             <li class="header__menu-item">
-              <a href="/company.html" class="header__menu-link">Binary Options</a>
+              <a href="/company.html" class="header__menu-link"
+                >Binary Options</a
+              >
             </li>
             <li class="header__menu-item">
               <a href="#" class="header__menu-link">Crypto Projects</a>
